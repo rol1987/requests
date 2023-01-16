@@ -31,7 +31,7 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    path_to_file = 'C:/Users/Olga/Desktop/requests/AnyFile.xlsx'
+    path_to_file = 'AnyFile.xlsx'
     token = TOKEN
     uploader = YaUploader(token)
     result = uploader.get_upload(path_to_file)
